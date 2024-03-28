@@ -22,3 +22,5 @@ Some particular ones to note:
 
 - Sets up a websocket communication of Ramsey
 - Test cases uses the open DB to run queries
+
+## Usage
