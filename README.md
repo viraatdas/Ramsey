@@ -18,9 +18,10 @@ Some particular ones to note:
 
 - **Gremlin**
 
-## Testing
+## Simplified High-Level Overview for a Gremlin Query Engine
 
-- Sets up a websocket communication of Ramsey
-- Test cases uses the open DB to run queries
+1. WebSocket Interface: Establish a WebSocket service that allows users to submit Gremlin queries in real-time. This will be the main interface for communication between the user and the database.
 
-## Usage
+2. API Key Authentication: Use API key authentication to verify users before they can submit queries, ensuring that only authorized users can access the database.
+
+3. Gremlin Database Connection: Maintain a connection to the Gremlin database, where the engine executes received queries and returns results to the user via the WebSocket connection.
